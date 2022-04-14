@@ -2,12 +2,12 @@
 A simple script to download music found on Spotify from YouTube.
 
 ## Installation
-### Automatic
+#### Automatic
 ```
 $ ./install.sh
 ``` 
 Note: you will be prompted for a root password
-### Manual
+#### Manual
 ```
 $ pip3 install -r requirements.txt
 # mkdir -p /opt/spotify-dl
@@ -15,12 +15,12 @@ $ pip3 install -r requirements.txt
 $ chmod +x spotify-dl
 $ cp -f spotify-dl /bin/
 ```
-### No installation
+#### No installation
 ```
 ./spotify-dl
 ```
 ## Usage
-### IMPORTANT: Read [how to set the requied environment variables](docs/setting_environment_variables.md)
+#### IMPORTANT: Read [how to set the requied environment variables](docs/setting_environment_variables.md)
 ```
 usage: spotify-dl url [-f FORMAT] [-o PATH] [-v]
 
