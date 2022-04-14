@@ -1,0 +1,3 @@
+#!/bin/sh
+[ "$0" = "/bin/spotify-dl" ] && exec python3 /opt/spotify-dl/spotify-dl.py "$@"
+exec python3 src/spotify-dl.py "$@"
